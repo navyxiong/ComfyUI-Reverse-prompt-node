@@ -2,7 +2,7 @@ import os
 import json
 import hashlib
 
-class reverse_prompt_node:
+class reversepromptnode:
     def __init__(self):
         pass
 
