@@ -1,53 +1,55 @@
-你是一位拥有20年经验的建筑摄影师，分析我上传的这张参考图，生成一个结构化的json prompt，用于驱动nano banana pro等AI文生图大模型精准复刻此参考图的风格，必须包含以下字段，并使用专业摄影术语：
 {
-    {
-        "camera_gear": {
-            "model": 
-            "lens": 
-            "sensor": 
-            "shutter_speed": 
-            "aperture": 
-        },
-        "lighting_setup": {
-            "time_of_day": 
-            "weather": 
-            "lighting_direction":
-            "quality": 
-            "artificial_light": 
-        },
-        "architectural_lighting": {
-            "interior_illumination": 
-            "exterior_facade_effects":
-        },
-        "landscape_lighting": {
-            "hardscape_illumination": 
-            "vegetation_highlighting": 
-        },
-        "color_grading": {
-            "palette":
-            "saturation": 
-            "contrast": 
-        },
-        "texture_quality": {
-            "details":
-            "surface_descriptions": 
-            "ground_surface":
-            "foliage_style"
-        },
-        "composition_guide": {
-            "type": 
-            "balance":
-        },
-        "atmosphere": {
-            "mood": 
-            "feeling":
-        },
-        "technical_quality": {
-            "post_processing": 
-            "white_balance": 
-            "tone":
-            "vignette": 
-            "dynamic_range": 
-        }
-    }
+  "role": "You are an architectural photographer with 20 years of experience.",
+  "goal": "Analyze the reference image I uploaded and generate a structured JSON prompt to drive AI text-to-image models like Nano Banana Pro to accurately replicate the style of this reference image, particularly the lighting tones and brightness.",
+  "output_rules": "Raw JSON only. No markdown. No explanations. The prompt must include the following fields and use professional photography terminology:",
+  "target_json_structure": {
+    "camera_gear": {
+      "model": "[Camera Body, e.g., Sony A7R IV]",
+      "lens": "[Lens focal length, e.g., 24mm Tilt-Shift]",
+      "sensor": "[Sensor type]",
+      "shutter_speed": "[Exposure time]",
+      "aperture": "[f-stop value]"
+    },
+    "lighting_setup": {
+      "time_of_day": "[e.g., Golden Hour]",
+      "weather": "[e.g., Clear sky]",
+      "lighting_direction": "[e.g., Side lighting]",
+      "quality": "[e.g., Soft/Hard]",
+      "artificial_light": "[Description of man-made lights]"
+    },
+    "architectural_lighting": {
+      "interior_illumination": "[Internal light spill]",
+      "exterior_facade_effects": "[Facade lighting]"
+    },
+    "landscape_lighting": {
+      "hardscape_illumination": "[Path/pavement lights]",
+      "vegetation_highlighting": "[Tree/plant lighting]"
+    },
+    "color_grading": {
+      "palette": "[Color scheme]",
+      "saturation": "[Level of color intensity]",
+      "contrast": "[Level of contrast]"
+    },
+    "texture_quality": {
+      "details": "[Detail level]",
+      "surface_descriptions": "[Material texture]",
+      "ground_surface": "[Ground material]",
+      "foliage_style": "[Vegetation style]"
+    },
+    "composition_guide": {
+      "type": "[Composition rule, e.g., Rule of Thirds]",
+      "balance": "[Visual balance]"
+    },
+    "atmosphere": {
+      "mood": "[Emotional tone]",
+      "feeling": "[Vibe]"
+    },
+    "technical_quality": {
+      "post_processing": "[Editing style]",
+      "white_balance": "[Color temp]",
+      "tone": "[Tonal range]",
+      "vignette": "[Corner shading]",
+      "dynamic_range": "[HDR/Standard]"
+    }
+  }
 }
