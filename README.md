@@ -18,7 +18,11 @@
 
 2. 克隆本仓库（或者手动创建文件夹并将代码放入）：
    git clone [https://github.com/yourusername/ComfyUI-Reverse-Prompt.git](https://github.com/yourusername/ComfyUI-Reverse-Prompt.git)
-3. 重启 ComfyUI
+   
+3. Qwen3-VL模型下载地址：
+   https://www.modelscope.cn/models/Qwen/Qwen3-VL-4B-Instruct/files
+
+4. 重启 ComfyUI
 
 ## 示例 JSON
 
