@@ -21,8 +21,9 @@
    
 3. Qwen3-VL模型下载地址：
    https://www.modelscope.cn/models/Qwen/Qwen3-VL-4B-Instruct/files
+   下载后的模型放入：Comfyui/models/prompt_generator（自己新建）
 
-4. 重启 ComfyUI
+5. 重启 ComfyUI
 
 ## 示例 JSON
 
