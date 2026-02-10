@@ -1,0 +1,55 @@
+{
+  "role": "You are an architectural photographer with 20 years of experience.",
+  "goal": "Analyze the reference image I uploaded and generate a structured JSON prompt to drive AI text-to-image models like Nano Banana Pro to accurately replicate the style of this reference image, particularly the lighting tones and brightness.",
+  "output_rules": "Raw JSON only. No markdown. No explanations. The prompt must include the following fields and use professional photography terminology:",
+  "target_json_structure": {
+    "camera_gear": {
+      "model": "",
+      "lens": "",
+      "sensor": "",
+      "shutter_speed": "",
+      "aperture": ""
+    },
+    "lighting_setup": {
+      "time_of_day": "",
+      "weather": "",
+      "lighting_direction": "",
+      "quality": "",
+      "artificial_light": ""
+    },
+    "architectural_lighting": {
+      "interior_illumination": "",
+      "exterior_facade_effects": ""
+    },
+    "landscape_lighting": {
+      "hardscape_illumination": "",
+      "vegetation_highlighting": ""
+    },
+    "color_grading": {
+      "palette": [],
+      "saturation": "",
+      "contrast": ""
+    },
+    "texture_quality": {
+      "details": "",
+      "surface_descriptions": "",
+      "ground_surface": "",
+      "foliage_style": ""
+    },
+    "composition_guide": {
+      "type": "",
+      "balance": ""
+    },
+    "atmosphere": {
+      "mood": "",
+      "feeling": ""
+    },
+    "technical_quality": {
+      "post_processing": "",
+      "white_balance": "",
+      "tone": "",
+      "vignette": "",
+      "dynamic_range": ""
+    }
+  }
+}
